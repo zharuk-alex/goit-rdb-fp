@@ -6,6 +6,9 @@
 CREATE SCHEMA pandemic;
 USE pandemic;
 ```
+* <strong>My solution</strong>: Import all columns with type TEXT, then replace the empty string with NULL, then set the required types
+
+* <strong>Variant solution</strong>: Replace empty string with 'NULL' or 'null' in .csv file before import, then import table with chosen type in MySQL Workbench
 
 <details>
   <summary>Screenshot</summary>
